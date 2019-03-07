@@ -16,9 +16,6 @@ import android.view.WindowManager;
 import android.widget.Button;
 import android.widget.TextView;
 
-import com.google.android.gms.location.DetectedActivity;
-import com.google.android.gms.location.Geofence;
-
 import java.util.ArrayList;
 import java.util.List;
 

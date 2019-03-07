@@ -9,12 +9,12 @@ buildscript {
     ext.junitVersion = "4.12"
 
     repositories {
+        google()
         mavenCentral()
-        maven { url "https://maven.google.com" }
         jcenter()
     }
 
     dependencies {
-        classpath 'com.android.tools.build:gradle:3.0.0-rc2'
+        classpath 'com.android.tools.build:gradle:3.3.2'
     }
 }
